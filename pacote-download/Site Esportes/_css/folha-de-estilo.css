@@ -1,0 +1,142 @@
+﻿@charset "UTF-8";
+	body {
+			background-image: url("../_img/background.jpg");
+			color: rgba( 250, 250, 250, 0.8);
+			font-family: Century Gothic;
+			font-size: 20px;
+			width: 100%;
+			height: 100px;
+		}
+	div#interface {
+		width: 800px;
+		background-color: rgba( 0, 0, 0, 0.7);
+		margin: 400px auto 190px auto;
+		padding: 20px;
+		box-shadow: 0px 0px 10px black;
+	}
+		p {
+			text-align: justify;
+			text-indent: 20px;
+		}	
+	header#cabecalho img#icone {
+		position: relative;
+		left: -100px;
+		top: -400px;
+		width: 1000px;
+	}
+	hgroup#descricao {
+		margin-left: 200px;
+		margin-top: -750px;
+	}
+	hgroup#descricao h1 {
+		position: relative;
+		font-family: arial;
+		font-size: 20px;
+		margin-top: -10px;
+	}
+	hgroup#descricao h2 {
+		position: relative;
+		font-family: arial;
+		font-size: 15px;
+		margin-top: -10px;
+	}
+	hgroup#descricao h3 {
+		position: relative;
+		font-family: arial;
+		font-size: 10px;
+		margin-top: -10px;
+	}
+	hgroup#conteudo {
+		position: relative;
+	
+	}
+	hgroup#titulo2 h2{
+		margin-top: -180px;
+		margin-left: 380px;
+		font-size: 45px;
+	}
+	hgroup#indice {
+		position: relative;
+		top: -750px;
+	}
+/* Formataçaõ de imagens com legendas */
+figure.foto-legenda {
+	position: relative;
+	box-shadow: 1px 1px 4px black;
+	width: auto;
+	height: auto;
+}
+figure.foto-legenda img {
+	width: 100%;
+	height: 100%;
+}
+figure.futebol:hover figcaption {
+	opacity: 0;
+}
+/* Formatação do Menu */
+nav#menu ol {
+	list-style: none;
+	text-transform: uppercase;
+	position: relative;
+	left: 110px;
+	top: -400px;
+}
+nav#menu li {
+	display: inline-block;
+	padding: 5px;
+}
+nav#menu li:hover {
+	
+}
+nav#menu h1 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top:  -400px;
+	left: 130px;
+}
+figure.icofut {
+	position: relative;
+	right: 50px;
+}
+figure.icofut figcaption {
+	position: absolute;
+	opacity: 0;
+	top: 115px;
+	left: 40px;
+	transition: opacity 1s;
+}
+figure.icofut:hover figcaption {
+	opacity: 1;
+}
+figure.icobasque {
+	position: relative;
+
+	left: 130px;
+	top: -180px;
+}
+figure.icobasque figcaption {
+	position: absolute;
+	opacity: 0;
+	top: 115px;
+	left: 25px;
+	transition: opacity 1s;
+}
+figure.icobasque:hover figcaption {
+	opacity: 1;
+}
+figure.icotenis {
+	position: relative;
+	top: -350px;
+	left: 290px;
+}
+figure.icotenis figcaption {
+	position: absolute;
+	opacity: 0;
+	top: 115px;
+	left: 50px;
+	transition: opacity 1s;
+}
+figure.icotenis:hover figcaption {
+		opacity: 1;
+}
